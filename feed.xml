@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feed del Curso 24-25</title>
+    <link>https://www.motilla.com/</link>
+    <description>Feed de información del curso 24-25 para enseñanzas virtuales.</description>
+    <atom:link href="https://raw.githubusercontent.com/felix131990/miweb/refs/heads/main/mi_web2/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bienvenida al Curso 24-25</title>
+      <link>https://www.motilla.com/</link>
+      <description>¡Bienvenidos al curso 24-25 para enseñanzas virtuales!</description>
+      <guid>https://www.motilla.com/bienvenida</guid>
+    </item>
+    
+    <item>
+      <title>Datos Personales de Félix Martínez Fajardo</title>
+      <link>https://www.motilla.com/datos-personales</link>
+      <description>Información personal de Félix Martínez Fajardo.</description>
+      <guid>https://www.motilla.com/datos-personales</guid>
+    </item>
+    
+    <!-- Atom:link agregado al final del canal -->
+    <atom:link href="https://raw.githubusercontent.com/felix131990/miweb/refs/heads/main/mi_web2/feed.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
