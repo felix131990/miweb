@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="cabecera">Cabecera</div>
+    <div class="izquierda">Menú:
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="personal.html">Datos Personales</a>
+        </nav>
+    </div>
+    <div class="derecha">
+        <form action="procesamiento.PHP" method="GET">
+            <label>Tu profesión:</label>
+            <input type="text" name="profesion"><br>
+            <label>Género:</label>
+            <input type="radio" name="genero" value="Masculino"> Masculino
+            <input type="radio" name="genero" value="Femenino"> Femenino<br>
+            <label>Intereses:</label>
+            <input type="checkbox" name="interes1" value="Tecnología"> Tecnología
+            <input type="checkbox" name="interes2" value="Deportes"> Deportes<br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="pie">Pie de página</div>
+</body>
+</html>
